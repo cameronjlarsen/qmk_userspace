@@ -1,8 +1,4 @@
 POINTING_DEVICE_ENABLE = no
-BOOTMAGIC_ENABLE = yes
-BOOLOADER = rp2040
-OLED_ENABLE = yes
-RGBLIGHT_ENABLE = yes    # Enable keyboard RGB underglow
 COMMAND_ENABLE = no 		# Disables the command feature
 COMBO_ENABLE = yes
 MOUSEKEY_ENABLE = no

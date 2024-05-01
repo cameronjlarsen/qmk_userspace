@@ -259,9 +259,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
       &os_cmd_state, KC_LGUI, OS_GUI,
       keycode, record
     );
-  if (record->event.pressed) {
-    set_keylog(keycode, record);
-  }
   return true;
 }
 
